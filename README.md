@@ -1,8 +1,7 @@
 # Publisher/subscriber Pattern
-Publisher/subscriber pattern is a software design technique realized in many software development
 
-## In this project, I did develop a distributed system that imitates pub/sub based on the
-requirements listed below.
+In this project, I did develop a distributed system that imitates pub/sub based on the requirements listed below.
+
 * There are 3 types of agents: publisher, broker and subscriber. Your solution will support
 multiple publishers and subscribers and a single, centralized broker. Each entity will be a
 process of its own.
