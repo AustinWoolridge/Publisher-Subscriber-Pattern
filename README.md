@@ -40,7 +40,7 @@ Here are some details on certain event described above.
 * A new publisher wakes up with the command
 
 
-_publisher 192.168.0.1:4444 pub1 sports;news_
+<p>_publisher 192.168.0.1:4444 pub1 sports;news_</p>
 
 In this command, the first token is the publisher program’s executable name. The rest are
 what we call command line arguments. The first argument is the broker’s socket connection
