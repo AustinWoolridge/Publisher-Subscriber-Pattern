@@ -35,9 +35,11 @@ user interaction will be limited to the setup phase (i.e., topic registration) f
 applications.
 * Publishers will keep listening for message posts from the end user over the console. For
 each message, the user will enter: (a) topic, (b) body.
+
 Here are some details on certain event described above.
-- A new publisher wakes up with the command
-            * “publisher 192.168.0.1:4444 pub1 sports;news” *
+* A new publisher wakes up with the command
+_publisher 192.168.0.1:4444 pub1 sports;news_
+
 In this command, the first token is the publisher program’s executable name. The rest are
 what we call command line arguments. The first argument is the broker’s socket connection
 string (IP and port#), the second is this publisher’s name and the last one is the list of topics.
